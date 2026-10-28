@@ -1,0 +1,556 @@
+{
+ "note": "Placeholder addresses for a concept brand.",
+ "features": {
+  "247": {
+   "ru": "Круглосуточно",
+   "en": "24/7"
+  },
+  "drive": {
+   "ru": "Драйв",
+   "en": "Drive-thru"
+  },
+  "delivery": {
+   "ru": "Доставка",
+   "en": "Delivery"
+  },
+  "terrace": {
+   "ru": "Терраса",
+   "en": "Terrace"
+  },
+  "kids": {
+   "ru": "Детская зона",
+   "en": "Kids area"
+  }
+ },
+ "restaurants": [
+  {
+   "id": "r1",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Немига",
+    "en": "Bunly Nemiga"
+   },
+   "address": {
+    "ru": "пр-т Победителей, 9",
+    "en": "Pobediteley Ave 9"
+   },
+   "hours": "24/7",
+   "features": [
+    "247",
+    "delivery",
+    "kids"
+   ]
+  },
+  {
+   "id": "r2",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Независимости",
+    "en": "Bunly Nezavisimosti"
+   },
+   "address": {
+    "ru": "пр-т Независимости, 52",
+    "en": "Nezavisimosti Ave 52"
+   },
+   "hours": "24/7",
+   "features": [
+    "247",
+    "delivery",
+    "terrace"
+   ]
+  },
+  {
+   "id": "r3",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Вокзал",
+    "en": "Bunly Railway Station"
+   },
+   "address": {
+    "ru": "Привокзальная пл., 3",
+    "en": "Privokzalnaya Sq 3"
+   },
+   "hours": "24/7",
+   "features": [
+    "247",
+    "delivery"
+   ]
+  },
+  {
+   "id": "r4",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Каменная Горка",
+    "en": "Bunly Kamennaya Gorka"
+   },
+   "address": {
+    "ru": "ул. Притыцкого, 156",
+    "en": "Pritytskogo St 156"
+   },
+   "hours": "07:00–23:00",
+   "features": [
+    "drive",
+    "delivery",
+    "kids"
+   ]
+  },
+  {
+   "id": "r5",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Малиновка",
+    "en": "Bunly Malinovka"
+   },
+   "address": {
+    "ru": "пр-т Дзержинского, 104",
+    "en": "Dzerzhinskogo Ave 104"
+   },
+   "hours": "07:00–23:00",
+   "features": [
+    "drive",
+    "delivery"
+   ]
+  },
+  {
+   "id": "r6",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Уручье",
+    "en": "Bunly Uruchye"
+   },
+   "address": {
+    "ru": "пр-т Независимости, 169",
+    "en": "Nezavisimosti Ave 169"
+   },
+   "hours": "08:00–22:00",
+   "features": [
+    "delivery",
+    "kids"
+   ]
+  },
+  {
+   "id": "r7",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Пушкинская",
+    "en": "Bunly Pushkinskaya"
+   },
+   "address": {
+    "ru": "пр-т Пушкина, 39",
+    "en": "Pushkina Ave 39"
+   },
+   "hours": "08:00–22:00",
+   "features": [
+    "delivery",
+    "kids"
+   ]
+  },
+  {
+   "id": "r8",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Кальварийская",
+    "en": "Bunly Kalvariyskaya"
+   },
+   "address": {
+    "ru": "ул. Кальварийская, 24",
+    "en": "Kalvariyskaya St 24"
+   },
+   "hours": "08:00–22:00",
+   "features": [
+    "delivery",
+    "terrace"
+   ]
+  },
+  {
+   "id": "r9",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Серебрянка",
+    "en": "Bunly Serebryanka"
+   },
+   "address": {
+    "ru": "пр-т Рокоссовского, 2",
+    "en": "Rokossovskogo Ave 2"
+   },
+   "hours": "07:00–23:00",
+   "features": [
+    "drive",
+    "delivery"
+   ]
+  },
+  {
+   "id": "r10",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Партизанский",
+    "en": "Bunly Partizanskiy"
+   },
+   "address": {
+    "ru": "пр-т Партизанский, 150",
+    "en": "Partizanskiy Ave 150"
+   },
+   "hours": "07:00–23:00",
+   "features": [
+    "drive",
+    "delivery"
+   ]
+  },
+  {
+   "id": "r11",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Академия",
+    "en": "Bunly Akademiya"
+   },
+   "address": {
+    "ru": "ул. Сурганова, 50",
+    "en": "Surganova St 50"
+   },
+   "hours": "08:00–22:00",
+   "features": [
+    "delivery",
+    "kids"
+   ]
+  },
+  {
+   "id": "r12",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Тимирязева",
+    "en": "Bunly Timiryazeva"
+   },
+   "address": {
+    "ru": "ул. Тимирязева, 74",
+    "en": "Timiryazeva St 74"
+   },
+   "hours": "08:00–22:00",
+   "features": [
+    "delivery"
+   ]
+  },
+  {
+   "id": "r13",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Маяк",
+    "en": "Bunly Mayak"
+   },
+   "address": {
+    "ru": "ул. Петра Мстиславца, 11",
+    "en": "Petra Mstislavtsa St 11"
+   },
+   "hours": "08:00–22:00",
+   "features": [
+    "delivery",
+    "terrace",
+    "kids"
+   ]
+  },
+  {
+   "id": "r14",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Есенина",
+    "en": "Bunly Esenina"
+   },
+   "address": {
+    "ru": "ул. Есенина, 6",
+    "en": "Esenina St 6"
+   },
+   "hours": "08:00–22:00",
+   "features": [
+    "delivery"
+   ]
+  },
+  {
+   "id": "r15",
+   "city": 0,
+   "name": {
+    "ru": "Bunly Аэропорт",
+    "en": "Bunly Airport"
+   },
+   "address": {
+    "ru": "Национальный аэропорт «Минск»",
+    "en": "Minsk National Airport"
+   },
+   "hours": "24/7",
+   "features": [
+    "247"
+   ]
+  },
+  {
+   "id": "r16",
+   "city": 1,
+   "name": {
+    "ru": "Bunly Центр",
+    "en": "Bunly Centre"
+   },
+   "address": {
+    "ru": "ул. Советская, 62",
+    "en": "Sovetskaya St 62"
+   },
+   "hours": "24/7",
+   "features": [
+    "247",
+    "delivery",
+    "terrace"
+   ]
+  },
+  {
+   "id": "r17",
+   "city": 1,
+   "name": {
+    "ru": "Bunly Восток",
+    "en": "Bunly Vostok"
+   },
+   "address": {
+    "ru": "ул. Московская, 210",
+    "en": "Moskovskaya St 210"
+   },
+   "hours": "07:00–23:00",
+   "features": [
+    "drive",
+    "delivery"
+   ]
+  },
+  {
+   "id": "r18",
+   "city": 2,
+   "name": {
+    "ru": "Bunly Советская",
+    "en": "Bunly Sovetskaya"
+   },
+   "address": {
+    "ru": "ул. Советская, 31",
+    "en": "Sovetskaya St 31"
+   },
+   "hours": "08:00–22:00",
+   "features": [
+    "delivery",
+    "kids"
+   ]
+  },
+  {
+   "id": "r19",
+   "city": 2,
+   "name": {
+    "ru": "Bunly Ольшанка",
+    "en": "Bunly Olshanka"
+   },
+   "address": {
+    "ru": "ул. Горького, 91",
+    "en": "Gorkogo St 91"
+   },
+   "hours": "24/7",
+   "features": [
+    "drive",
+    "247",
+    "delivery"
+   ]
+  },
+  {
+   "id": "r20",
+   "city": 3,
+   "name": {
+    "ru": "Bunly Ленина",
+    "en": "Bunly Lenina"
+   },
+   "address": {
+    "ru": "ул. Ленина, 26",
+    "en": "Lenina St 26"
+   },
+   "hours": "08:00–22:00",
+   "features": [
+    "delivery",
+    "terrace"
+   ]
+  },
+  {
+   "id": "r21",
+   "city": 3,
+   "name": {
+    "ru": "Bunly Московский",
+    "en": "Bunly Moskovskiy"
+   },
+   "address": {
+    "ru": "пр-т Московский, 9",
+    "en": "Moskovskiy Ave 9"
+   },
+   "hours": "07:00–23:00",
+   "features": [
+    "drive",
+    "delivery"
+   ]
+  },
+  {
+   "id": "r22",
+   "city": 4,
+   "name": {
+    "ru": "Bunly Центр",
+    "en": "Bunly Centre"
+   },
+   "address": {
+    "ru": "ул. Советская, 49",
+    "en": "Sovetskaya St 49"
+   },
+   "hours": "24/7",
+   "features": [
+    "247",
+    "delivery"
+   ]
+  },
+  {
+   "id": "r23",
+   "city": 4,
+   "name": {
+    "ru": "Bunly Речицкий",
+    "en": "Bunly Rechitskiy"
+   },
+   "address": {
+    "ru": "пр-т Речицкий, 5",
+    "en": "Rechitskiy Ave 5"
+   },
+   "hours": "07:00–23:00",
+   "features": [
+    "drive",
+    "delivery",
+    "kids"
+   ]
+  },
+  {
+   "id": "r24",
+   "city": 5,
+   "name": {
+    "ru": "Bunly Первомайская",
+    "en": "Bunly Pervomayskaya"
+   },
+   "address": {
+    "ru": "ул. Первомайская, 30",
+    "en": "Pervomayskaya St 30"
+   },
+   "hours": "08:00–22:00",
+   "features": [
+    "delivery",
+    "kids"
+   ]
+  },
+  {
+   "id": "r25",
+   "city": 5,
+   "name": {
+    "ru": "Bunly Пушкинский",
+    "en": "Bunly Pushkinskiy"
+   },
+   "address": {
+    "ru": "пр-т Пушкинский, 72",
+    "en": "Pushkinskiy Ave 72"
+   },
+   "hours": "24/7",
+   "features": [
+    "drive",
+    "247",
+    "delivery"
+   ]
+  },
+  {
+   "id": "r26",
+   "city": 6,
+   "name": {
+    "ru": "Bunly Центр",
+    "en": "Bunly Centre"
+   },
+   "address": {
+    "ru": "ул. Советская, 75",
+    "en": "Sovetskaya St 75"
+   },
+   "hours": "08:00–22:00",
+   "features": [
+    "delivery"
+   ]
+  },
+  {
+   "id": "r27",
+   "city": 7,
+   "name": {
+    "ru": "Bunly Социалистическая",
+    "en": "Bunly Sotsialisticheskaya"
+   },
+   "address": {
+    "ru": "ул. Социалистическая, 81",
+    "en": "Sotsialisticheskaya St 81"
+   },
+   "hours": "07:00–23:00",
+   "features": [
+    "drive",
+    "delivery"
+   ]
+  },
+  {
+   "id": "r28",
+   "city": 8,
+   "name": {
+    "ru": "Bunly Ленина",
+    "en": "Bunly Lenina"
+   },
+   "address": {
+    "ru": "ул. Ленина, 40",
+    "en": "Lenina St 40"
+   },
+   "hours": "08:00–22:00",
+   "features": [
+    "delivery",
+    "terrace"
+   ]
+  },
+  {
+   "id": "r29",
+   "city": 9,
+   "name": {
+    "ru": "Bunly Трасса М1",
+    "en": "Bunly M1 Highway"
+   },
+   "address": {
+    "ru": "Трасса М1, 539 км",
+    "en": "M1 highway, km 539"
+   },
+   "hours": "24/7",
+   "features": [
+    "drive",
+    "247"
+   ]
+  },
+  {
+   "id": "r30",
+   "city": 10,
+   "name": {
+    "ru": "Bunly Советская",
+    "en": "Bunly Sovetskaya"
+   },
+   "address": {
+    "ru": "ул. Советская, 19",
+    "en": "Sovetskaya St 19"
+   },
+   "hours": "08:00–22:00",
+   "features": [
+    "delivery"
+   ]
+  },
+  {
+   "id": "r31",
+   "city": 12,
+   "name": {
+    "ru": "Bunly Трасса М1",
+    "en": "Bunly M1 Highway"
+   },
+   "address": {
+    "ru": "Трасса М1, 41 км",
+    "en": "M1 highway, km 41"
+   },
+   "hours": "07:00–23:00",
+   "features": [
+    "drive"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bunly — фастфуд со вкусом дома (3D-концепт)</title>
+<meta name="description" content="Концепт сети быстрого питания в Беларуси: 3D-тур от поля до подноса, своя пекарня, открытая кухня, доставка и ночное меню.">
+<link rel="canonical" href="https://sergevei.github.io/bunly/">
+<link rel="alternate" hreflang="ru" href="https://sergevei.github.io/bunly/">
+<link rel="alternate" hreflang="en" href="https://sergevei.github.io/bunly/en/">
+<link rel="alternate" hreflang="x-default" href="https://sergevei.github.io/bunly/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="Siarhei Vei">
+<meta name="theme-color" content="#E5412D">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bunly">
+<meta property="og:title" content="Bunly — фастфуд со вкусом дома (3D-концепт)">
+<meta property="og:description" content="Концепт сети быстрого питания в Беларуси: 3D-тур от поля до подноса, своя пекарня, открытая кухня, доставка и ночное меню.">
+<meta property="og:url" content="https://sergevei.github.io/bunly/">
+<meta property="og:image" content="https://sergevei.github.io/bunly/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bunly — фастфуд со вкусом дома (3D-концепт)">
+<meta name="twitter:description" content="Концепт сети быстрого питания в Беларуси: 3D-тур от поля до подноса, своя пекарня, открытая кухня, доставка и ночное меню.">
+<meta name="twitter:image" content="https://sergevei.github.io/bunly/og-image.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700&family=Rubik:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json" id="ld-json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://sergevei.github.io/bunly/#website",
+      "url": "https://sergevei.github.io/bunly/",
+      "name": "Bunly",
+      "inLanguage": [
+        "ru",
+        "en"
+      ],
+      "creator": {
+        "@id": "https://sergevei.github.io/bunly/#author"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://sergevei.github.io/bunly/#webpage",
+      "url": "https://sergevei.github.io/bunly/",
+      "isPartOf": {
+        "@id": "https://sergevei.github.io/bunly/#website"
+      },
+      "name": "Bunly — 3D concept",
+      "author": {
+        "@id": "https://sergevei.github.io/bunly/#author"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Siarhei Vei",
+      "alternateName": "sergevei",
+      "url": "https://sergevei.github.io/",
+      "sameAs": [
+        "https://t.me/vsergeserge",
+        "https://sergevei.github.io/",
+        "https://sergevei.github.io/nordfreight/",
+        "https://sergevei.github.io/futurecall/"
+      ],
+      "@id": "https://sergevei.github.io/bunly/#author"
+    }
+  ]
+}
+</script>
+</head>
+<body class="home">
+<div class="concept-bar" role="note" aria-label="Bunly — концепт сети быстрого питания. Меню, цены, адреса, цифры и отзывы на этой странице — заглушки."><div class="concept-track" aria-hidden="true"><span class="concept-item"><b>Концепт</b>Bunly — концепт сети быстрого питания. Меню, цены, адреса, цифры и отзывы на этой странице — заглушки.<i></i></span><span class="concept-item"><b>Концепт</b>Bunly — концепт сети быстрого питания. Меню, цены, адреса, цифры и отзывы на этой странице — заглушки.<i></i></span><span class="concept-item"><b>Концепт</b>Bunly — концепт сети быстрого питания. Меню, цены, адреса, цифры и отзывы на этой странице — заглушки.<i></i></span><span class="concept-item"><b>Концепт</b>Bunly — концепт сети быстрого питания. Меню, цены, адреса, цифры и отзывы на этой странице — заглушки.<i></i></span></div></div>
+<section class="journey" id="journey" aria-label="Интерактивный тур: от поля до подноса">
+  <div class="stage" id="stage">
+    <canvas id="world" aria-hidden="true"></canvas>
+    <div class="overlay" id="overlay">
+      <div class="tip" id="tip" hidden role="dialog" aria-live="polite"><h3 id="tipTitle"></h3><p id="tipText"></p></div>
+    </div>
+    <header class="topbar">
+      <a class="wordmark" href="#content" aria-label="Bunly, на главную">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="10" fill="#E5412D"/><path d="M7 15.2a9 7.4 0 0 1 18 0z" fill="#FFC531"/><rect x="6.5" y="17" width="19" height="2.6" rx="1.3" fill="#fff"/><path d="M7.5 21.4h17a3.6 3.6 0 0 1-3.6 3.6H11.1a3.6 3.6 0 0 1-3.6-3.6z" fill="#FFC531"/></svg>
+        Bunly
+      </a>
+      <div class="top-actions">
+        <span class="pill-note hide-sm">Завтраки до <b>10:00</b> · ночное меню с <b>23:00</b></span>
+        <a class="btn ghost hide-sm" href="restaurants/">Найти ресторан</a>
+        <a class="lang-btn" href="en/" hreflang="en" lang="en" aria-label="Switch to English">EN</a>
+        <a class="btn primary" href="#app">Заказать</a>
+        <button class="menu-btn top" type="button" aria-expanded="false" aria-controls="mnav" aria-label="Открыть меню"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+      </div>
+    </header>
+
+    <article class="card" id="card" aria-live="polite">
+      <div class="swap">
+        <div class="card-step" id="cardStep"></div>
+        <h2 id="cardTitle"></h2>
+        <p id="cardText"></p>
+        <dl class="facts" id="cardFacts"></dl>
+        <div class="card-actions">
+          <a class="btn primary" href="#app">Заказать</a>
+          <a class="btn outline" href="#menu">Смотреть меню</a>
+        </div>
+      </div>
+    </article>
+
+    <div class="swipe-hint" id="swipeHint" aria-hidden="true">Листайте, чтобы ехать дальше →</div>
+    <nav class="scene-nav" id="sceneNav" aria-label="Остановки тура"></nav>
+    <div class="corner">
+      <button class="icon-btn" id="soundBtn" aria-pressed="false" aria-label="Включить фоновый звук">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path id="wave" d="M17 9l4 6M21 9l-4 6"/></svg>
+      </button>
+      <a class="btn light" id="skip" href="#content">Пропустить</a>
+    </div>
+    <div class="loader" id="loader">Разогреваем гриль…</div>
+  </div>
+</section>
+
+<div id="content">
+<div class="site-nav"><div class="in"><a class="wordmark" href="./" style="font-size:20px"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="10" fill="#E5412D"/><path d="M7 15.2a9 7.4 0 0 1 18 0z" fill="#FFC531"/><rect x="6.5" y="17" width="19" height="2.6" rx="1.3" fill="#fff"/><path d="M7.5 21.4h17a3.6 3.6 0 0 1-3.6 3.6H11.1a3.6 3.6 0 0 1-3.6-3.6z" fill="#FFC531"/></svg>Bunly</a><nav class="links" aria-label="Главное меню"><a href="menu/">Меню</a><a href="restaurants/">Рестораны</a><a href="about/">О нас</a><a href="food-truck/">Фудтрак</a><a href="careers/">Работа</a><a href="contacts/">Контакты</a></nav><div class="nav-acts"><a class="btn primary" href="./#app">Заказать</a></div><a class="lang-btn" href="en/" hreflang="en" lang="en" aria-label="Switch to English">EN</a><button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mnav" aria-label="Открыть меню"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button></div></div>
+  <div class="wrap">
+    <section class="intro">
+      <h1>Фастфуд со вкусом <em>дома.</em></h1>
+      <div>
+        <p>Bunly готовит из картофеля, зерна, молока и говядины с белорусских ферм, каждую ночь печёт свои булочки и кормит завтраками, обедами и ночным меню по всей стране.</p>
+        <div class="card-actions">
+          <a class="btn primary" href="#app">Заказать доставку</a>
+          <a class="btn outline" href="#menu">Открыть меню</a>
+        </div>
+        <div class="rating"><span class="stars" aria-hidden="true">★★★★★</span> 4,8 в магазинах приложений (заглушка)</div>
+      </div>
+    </section>
+  </div>
+
+  <div class="marquee" aria-label="Фермы и поставщики (вымышленные названия)">
+    <p class="marquee-label">Выращиваем и готовим вместе с 60+ местными партнёрами</p>
+    <div class="mtrack" id="mtrack"></div>
+  </div>
+
+  <div class="wrap">
+    <div class="stats" aria-label="Bunly в цифрах (заглушки)">
+      <div class="stat"><b data-count="31">0</b><span>ресторан в 13 городах</span></div>
+      <div class="stat"><b data-count="52000">0</b><span>гостей в обычный день</span></div>
+      <div class="stat"><b data-count="85" data-suffix="%">0</b><span>продуктов с местных ферм</span></div>
+      <div class="stat"><b data-count="28" data-suffix=" мин">0</b><span>средняя доставка</span></div>
+    </div>
+
+    <section class="block" id="menu">
+      <span class="eyebrow">Меню</span>
+      <h2 class="sec">Одна кухня, три меню и приложение.</h2>
+      <p class="lede">Меню меняется вместе с часами: горячие завтраки утром, бургеры и комбо весь день и короткое ночное меню для тех, кто не спит.</p>
+      <div class="tabs" role="tablist" aria-label="Меню">
+        <button role="tab" id="t1" aria-selected="true" aria-controls="p1">Завтрак</button>
+        <button role="tab" id="t2" aria-selected="false" aria-controls="p2" tabindex="-1">Весь день</button>
+        <button role="tab" id="t3" aria-selected="false" aria-controls="p3" tabindex="-1">Ночь</button>
+        <button role="tab" id="t4" aria-selected="false" aria-controls="p4" tabindex="-1">Приложение</button>
+      </div>
+
+      <div class="feature" role="tabpanel" id="p1" aria-labelledby="t1">
+        <div>
+          <h3>Тёплый завтрак до 10:00</h3>
+          <p>Маффины, роллы и каша под заказ, а участникам Клуба фильтр-кофе доливаем бесплатно.</p>
+          <div class="frow"><span class="ic" aria-hidden="true">🥚</span><div><h4>Свежие яйца</h4><p>Разбиваем прямо на гриль, никакого порошка.</p></div></div>
+          <div class="frow"><span class="ic" aria-hidden="true">🥞</span><div><h4>Блины и сырники</h4><p>Любимый местный завтрак с ягодным вареньем или сметаной.</p></div></div>
+          <div class="frow"><span class="ic" aria-hidden="true">☕</span><div><h4>Bunly Кафе</h4><p>Кофе на эспрессо за отдельной стойкой.</p></div></div>
+        </div>
+        <div class="mock" aria-hidden="true">
+          <div class="mock-head">Меню завтраков <small>до 10:00</small></div>
+          <div class="mrow"><span class="em" style="background:#FFF1C9">🍳</span><div><b>Фермерский маффин</b><span>Яйцо, свиная котлета, сыр</span></div><span class="pr">4,20</span></div>
+          <div class="mrow"><span class="em" style="background:#FFE2D6">🌯</span><div><b>Утренний ролл</b><span>Омлет, бекон, томат</span></div><span class="pr">5,10</span></div>
+          <div class="mrow"><span class="em" style="background:#E6F4DF">🥞</span><div><b>Сырники ×3</b><span>С ягодным вареньем</span></div><span class="pr">3,60</span></div>
+          <div class="mrow"><span class="em" style="background:#F2E6DA">☕</span><div><b>Флэт уайт</b><span>Двойной шот, местное молоко</span></div><span class="pr">3,20</span></div>
+          <div style="margin-top:14px"><span class="chip">☀ Комбо-завтрак дешевле на 1,40 руб.</span></div>
+        </div>
+      </div>
+
+      <div class="feature" role="tabpanel" id="p2" aria-labelledby="t2" hidden>
+        <div>
+          <h3>Соберите комбо и платите меньше</h3>
+          <p>Выберите бургер, гарнир и напиток. Цена комбо пересчитывается сразу, а с 12:00 до 16:00 действуют обеденные цены.</p>
+          <div class="frow"><span class="ic" aria-hidden="true">🍔</span><div><h4>Двенадцать бургеров</h4><p>Говядина, курица и растительная котлета, все на наших булочках.</p></div></div>
+          <div class="frow"><span class="ic" aria-hidden="true">🍟</span><div><h4>Местная картошка</h4><p>Из картофеля, выросшего в паре часов езды.</p></div></div>
+          <div class="frow"><span class="ic" aria-hidden="true">🎁</span><div><h4>Kids Box</h4><p>Детская порция с игрушкой из текущей коллекции.</p></div></div>
+        </div>
+        <div class="mock" aria-hidden="true">
+          <div class="mock-head">Конструктор комбо <small>Обеденная цена</small></div>
+          <div class="combo"><div class="on"><em>🍔</em>Деревенский</div><div class="on"><em>🍟</em>Фри M</div><div class="on"><em>🥤</em>Кола M</div></div>
+          <div class="mrow"><span class="em" style="background:#FFF1C9">🍔</span><div><b>Деревенский Дабл</b><span>Две говяжьи котлеты, чеддер</span></div><span class="pr">8,90</span></div>
+          <div class="mrow"><span class="em" style="background:#FFE2D6">🍟</span><div><b>Золотая фри</b><span>Средняя</span></div><span class="pr">2,90</span></div>
+          <div class="mrow"><span class="em" style="background:#E6F0FA">🥤</span><div><b>Кола</b><span>Средняя, можно без льда</span></div><span class="pr">2,40</span></div>
+          <div class="total"><span>Итого за комбо</span><span><s>14,20</s><b>11,90 руб.</b></span></div>
+        </div>
+      </div>
+
+      <div class="feature" role="tabpanel" id="p3" aria-labelledby="t3" hidden>
+        <div>
+          <h3>Открыты, когда город спит</h3>
+          <p>Девять ресторанов работают круглосуточно. Ночное меню короче, но все хиты в нём есть, горячие и быстрые.</p>
+          <div class="frow"><span class="ic" aria-hidden="true">🌙</span><div><h4>С 23:00 до 06:00</h4><p>Ночное меню во всех круглосуточных ресторанах.</p></div></div>
+          <div class="frow"><span class="ic" aria-hidden="true">🛵</span><div><h4>Поздняя доставка</h4><p>В крупных городах курьеры ездят до 3:00.</p></div></div>
+          <div class="frow"><span class="ic" aria-hidden="true">🚕</span><div><h4>Драйв</h4><p>Заказ прямо из машины, выходить не нужно.</p></div></div>
+        </div>
+        <div class="mock nightmock" aria-hidden="true">
+          <div class="mock-head">Ночное меню <small>Сейчас открыто</small></div>
+          <div class="clock">02:14</div>
+          <div class="mrow"><span class="em" style="background:#2C2350">🍔</span><div><b>Полуночный Дабл</b><span>Больше сыра, больше огурчиков</span></div><span class="pr">9,40</span></div>
+          <div class="mrow"><span class="em" style="background:#2C2350">🍗</span><div><b>Крылышки ×6</b><span>Острые или медово-чесночные</span></div><span class="pr">7,20</span></div>
+          <div class="mrow"><span class="em" style="background:#2C2350">🥤</span><div><b>Ночной шейк</b><span>Солёная карамель</span></div><span class="pr">3,90</span></div>
+        </div>
+      </div>
+
+      <div class="feature" role="tabpanel" id="p4" aria-labelledby="t4" hidden>
+        <div>
+          <h3>Смотрите, как заказ едет к вам</h3>
+          <p>Приложение Bunly принимает заказ, помнит любимые блюда, применяет купоны месяца и показывает курьера на карте.</p>
+          <div class="frow"><span class="ic" aria-hidden="true">📍</span><div><h4>Курьер на карте</h4><p>Каждый шаг от кухни до вашей двери.</p></div></div>
+          <div class="frow"><span class="ic" aria-hidden="true">🏷️</span><div><h4>Новые купоны каждый месяц</h4><p>Скидки на то, что вы заказываете чаще всего.</p></div></div>
+          <div class="frow"><span class="ic" aria-hidden="true">💬</span><div><h4>Расскажите, как всё прошло</h4><p>Короткий опрос после визита сразу попадает в ресторан.</p></div></div>
+        </div>
+        <div class="mock" aria-hidden="true">
+          <div class="mock-head">Заказ №4128 <small>В пути</small></div>
+          <div class="mapbox"><svg viewBox="0 0 400 180" preserveAspectRatio="none"><path d="M40 150 C120 150 110 60 200 70 S300 30 360 40" fill="none" stroke="#E5412D" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 9"/><circle cx="40" cy="150" r="10" fill="#231A15"/><circle cx="360" cy="40" r="12" fill="#3FA34D"/><circle cx="210" cy="68" r="11" fill="#FFC531" stroke="#fff" stroke-width="4"/></svg></div>
+          <div class="track-steps"><i class="on"></i><i class="on"></i><i class="live"></i><i></i></div>
+          <div style="display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted);margin-bottom:14px"><span>Принят</span><span>Готов</span><span>В пути</span><span>У вас</span></div>
+          <div class="courier"><span class="av">АК</span><div><b>Алексей, ваш курьер</b><span>Скутер · 1,2 км от вас</span></div><span class="eta">4 мин</span></div>
+        </div>
+      </div>
+<p class="more"><a class="btn outline" href="menu/">Всё меню →</a></p>
+    </section>
+  </div>
+
+  <section class="block" id="highlights" style="padding-top:20px">
+    <div class="wrap mslider-head">
+      <div><span class="eyebrow">Хиты</span><h2 class="sec">За этим возвращаются.</h2></div>
+      <div class="mctrl">
+        <button class="round" id="mPrev" aria-label="Предыдущее блюдо"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+        <span class="count" aria-live="polite"><b id="mNow">01</b> / <span id="mAll">06</span></span>
+        <button class="round" id="mNext" aria-label="Следующее блюдо"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+        <button class="round" id="mPlay" aria-label="Остановить автопрокрутку" aria-pressed="true"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path id="mPlayIc" d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button>
+      </div>
+    </div>
+    <div class="mslider" role="region" aria-roledescription="карусель" aria-label="Хиты меню">
+      <div class="mtrack2" id="mTrack" tabindex="0"></div>
+      <div class="mprog" id="mProg"></div>
+    </div>
+  </section>
+
+  <section class="map-sec" id="restaurants" aria-label="Карта ресторанов Bunly">
+    <div class="map-stage"><canvas id="mapCanvas" aria-hidden="true"></canvas><div class="map-labels" id="mapLabels"></div></div>
+    <div class="map-overlay">
+      <div class="map-panel">
+        <span class="eyebrow">Рестораны</span>
+        <h2 class="sec">От Бреста до Витебска.</h2>
+        <p>Тридцать один ресторан, своя пекарня в Минске и фудтрак, который всё лето ездит по небольшим городам.</p>
+        <div class="map-kpis">
+          <div><b data-count="31">0</b><span>ресторан</span></div>
+          <div><b data-count="13">0</b><span>городов</span></div>
+          <div><b data-count="9">0</b><span>круглосуточно</span></div>
+        </div>
+        <ul class="city-list" id="cityList"></ul><a class="more-link" href="restaurants/">Все адреса →</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <section class="block" id="club">
+      <div class="price-head">
+        <div><span class="eyebrow">Bunly Клуб</span><h2 class="sec">Часто у нас? Вступайте в Клуб.</h2></div>
+        <div class="toggle">
+          <span class="lbl on" id="lblM">Помесячно</span>
+          <button class="switch" id="billing" role="switch" aria-checked="false" aria-label="Оплата за год"></button>
+          <span class="lbl" id="lblY">За год <span class="save">2 месяца в подарок</span></span>
+        </div>
+      </div>
+      <div class="plans">
+        <article class="plan">
+          <div class="pn">Free</div>
+          <p class="pd">Купоны и баллы для всех, у кого есть приложение.</p>
+          <div class="amt"><span data-p data-month="0" data-year="0">0</span><small>руб.</small></div>
+          <div class="per" data-per-month="навсегда" data-per-year="навсегда">навсегда</div>
+          <ul><li>Купоны в приложении каждый месяц</li><li>1 балл за каждый 1 руб.</li><li>Десерт в день рождения</li></ul>
+          <a class="btn outline" href="#app">Скачать приложение</a>
+        </article>
+        <article class="plan hl">
+          <div class="pn">Plus <span class="chip">Выбирают чаще</span></div>
+          <p class="pd">Для постоянных гостей, которые заказывают несколько раз в неделю.</p>
+          <div class="amt"><span data-p data-month="7,90" data-year="79">7,90</span><small>руб.</small></div>
+          <div class="per" data-per-month="в месяц" data-per-year="в год, одним платежом">в месяц</div>
+          <ul><li>Бесплатная доставка от 15 руб.</li><li>Напиток в подарок каждый день</li><li>Двойные баллы</li><li>Новые бургеры раньше всех</li></ul>
+          <a class="btn primary" href="#app">Подключить Plus</a>
+        </article>
+        <article class="plan">
+          <div class="pn">Семья</div>
+          <p class="pd">До четырёх человек в одном аккаунте.</p>
+          <div class="amt"><span data-p data-month="14,90" data-year="149">14,90</span><small>руб.</small></div>
+          <div class="per" data-per-month="в месяц" data-per-year="в год, одним платежом">в месяц</div>
+          <ul><li>Всё из Plus на 4 человек</li><li>Kids Box в подарок каждую неделю</li><li>Экскурсия на кухню для всей семьи</li></ul>
+          <a class="btn outline" href="#app">Подключить «Семью»</a>
+        </article>
+      </div>
+      <div class="cmp-wrap" tabindex="0" role="region" aria-label="Сравнение тарифов Клуба">
+        <table class="cmp">
+          <thead><tr><th scope="col">Что входит</th><th scope="col">Free</th><th scope="col" class="hlc">Plus</th><th scope="col">Семья</th></tr></thead>
+          <tbody id="cmpBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="block" id="reviews" style="padding-top:0">
+      <div class="rev-head">
+        <div><span class="eyebrow">Гости</span><h2 class="sec">Услышано у кассы.</h2></div>
+        <div class="mctrl">
+          <button class="round" id="rPrev" aria-label="Предыдущий отзыв"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+          <button class="round" id="rNext" aria-label="Следующий отзыв"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+        </div>
+      </div>
+      <div class="rtrack" id="rTrack" role="region" aria-roledescription="карусель" aria-label="Отзывы гостей" tabindex="0"></div>
+      <div class="dots" id="rDots"></div>
+      <p class="placeholder-note">Отзывы придуманы для этого концепта.</p>
+    </section>
+
+    <section class="block faq" id="faq" style="padding-top:0">
+      <div><span class="eyebrow">Вопросы</span><h2 class="sec">Хорошие вопросы.</h2><p class="lede">Не нашли свой? Спросите в чате приложения, ответит живой человек.</p></div>
+      <div id="faqList"></div>
+    </section>
+
+    <section id="app">
+      <div class="cta">
+        <div>
+          <h2>Проголодались? Уже везём.</h2>
+          <p>Скачайте приложение Bunly: доставка, купоны месяца и привилегии Клуба. Есть для iPhone, Android и телефонов Huawei.</p>
+          <div class="btns">
+            <a class="btn white" href="#app">App Store</a>
+            <a class="btn white" href="#app">Google Play</a>
+            <a class="btn line" href="#app">AppGallery</a>
+          </div>
+        </div>
+        <div class="promo">
+          <small>Первый заказ доставки</small>
+          <b>Чикенбургер за наш счёт.</b>
+          <code>HELLOBUN</code>
+          <p>Предложение-заглушка, при заказе от 10 руб.</p>
+        </div>
+      </div>
+    </section>
+
+<footer class="site-foot"><div class="wrap"><div class="foot"><div><a class="wordmark" href="./" style="color:var(--ink);margin-bottom:12px"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="10" fill="#E5412D"/><path d="M7 15.2a9 7.4 0 0 1 18 0z" fill="#FFC531"/><rect x="6.5" y="17" width="19" height="2.6" rx="1.3" fill="#fff"/><path d="M7.5 21.4h17a3.6 3.6 0 0 1-3.6 3.6H11.1a3.6 3.6 0 0 1-3.6-3.6z" fill="#FFC531"/></svg>Bunly</a><p>Фастфуд со вкусом дома. Местные фермы, своя пекарня и открытая кухня.</p></div><div><h4>Меню</h4><a href="menu/#burgers">Бургеры</a><a href="menu/#chicken">Курица</a><a href="menu/#breakfast">Завтраки</a><a href="menu/#sides">Закуски</a></div><div><h4>Компания</h4><a href="about/">О нас</a><a href="food-truck/">Фудтрак</a><a href="careers/">Работа</a><a href="contacts/">Контакты</a></div><div><h4>Помощь</h4><a href="restaurants/">Рестораны</a><a href="./#app">Доставка и приложение</a><a href="contacts/#faq">Вопросы</a><a class="foot-lang" href="en/" hreflang="en" lang="en" aria-label="Switch to English">English</a></div></div><p class="small">© 2026 Bunly (концепт). Bunly — вымышленный бренд, созданный как дизайн-концепт. Все названия, цены, адреса, цифры и отзывы — заглушки и не описывают реальную компанию.</p><aside class="dev" id="devCredit" aria-label="О разработчике"></aside></div></footer>
+</div>
+<div class="mnav" id="mnav" role="dialog" aria-modal="true" aria-label="Меню"><div class="mnav-top"><a class="wordmark" href="./"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="10" fill="#E5412D"/><path d="M7 15.2a9 7.4 0 0 1 18 0z" fill="#FFC531"/><rect x="6.5" y="17" width="19" height="2.6" rx="1.3" fill="#fff"/><path d="M7.5 21.4h17a3.6 3.6 0 0 1-3.6 3.6H11.1a3.6 3.6 0 0 1-3.6-3.6z" fill="#FFC531"/></svg>Bunly</a><button class="mnav-close" id="menuClose" aria-label="Закрыть меню"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><nav aria-label="Мобильное меню"><a href="./" style="--i:0" aria-current="true">Главная <small>3D-тур</small></a><a href="menu/" style="--i:1">Меню <small>Бургеры и не только</small></a><a href="restaurants/" style="--i:2">Рестораны <small>31 адрес</small></a><a href="about/" style="--i:3">О нас <small>С поля на поднос</small></a><a href="food-truck/" style="--i:4">Фудтрак <small>Летний тур</small></a><a href="careers/" style="--i:5">Работа <small>Вакансии</small></a><a href="contacts/" style="--i:6">Контакты <small>Связаться</small></a></nav><div class="acts"><a class="btn primary" href="./#app">Заказать</a><a class="btn outline" href="restaurants/">Найти ресторан</a><a class="btn outline lang-full" href="en/" hreflang="en" lang="en" aria-label="Switch to English">English</a></div><div class="mnav-foot"><span>Завтраки до 10:00<br>Ночное меню с 23:00</span><a href="./#app">Скачать приложение →</a></div><a class="mnav-credit" id="mCredit" target="_blank" rel="noopener"></a></div>
+<script type="application/json" id="author-data">
+{
+  "name": "Siarhei Vei",
+  "handle": "sergevei",
+  "initials": "SV",
+  "tagline": {
+    "en": "interactive 3D websites built from scratch.",
+    "ru": "интерактивные 3D-сайты с нуля."
+  },
+  "pitch": {
+    "en": "Interactive 3D websites built from scratch with Three.js: scroll-driven scenes, live maps and fast, accessible pages. Want a site like this for your restaurant?",
+    "ru": "Интерактивные 3D-сайты с нуля на Three.js: сцены на скролле, живые карты, быстрые и доступные страницы. Хотите такой сайт для своего ресторана?"
+  },
+  "telegram": {
+    "label": "@vsergeserge",
+    "url": "https://t.me/vsergeserge"
+  },
+  "portfolio": "https://sergevei.github.io/",
+  "projects": [
+    {
+      "name": "NordFreight",
+      "url": "https://sergevei.github.io/nordfreight/"
+    },
+    {
+      "name": "FutureCall",
+      "url": "https://sergevei.github.io/futurecall/"
+    }
+  ],
+  "site": {
+    "title": "Bunly",
+    "url": "https://sergevei.github.io/bunly/",
+    "repo": "https://github.com/sergevei/bunly",
+    "video": ""
+  }
+}
+</script>
+<script src="assets/site.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" crossorigin defer></script>
+<script src="assets/map.js" defer></script>
+<script src="assets/home.js" defer></script>
+</body>
+</html>

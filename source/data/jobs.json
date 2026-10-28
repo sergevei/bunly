@@ -1,0 +1,295 @@
+{
+ "types": {
+  "kitchen": {
+   "ru": "Кухня",
+   "en": "Kitchen"
+  },
+  "hall": {
+   "ru": "Зал",
+   "en": "Front of house"
+  },
+  "delivery": {
+   "ru": "Доставка",
+   "en": "Delivery"
+  },
+  "office": {
+   "ru": "Офис",
+   "en": "Office"
+  }
+ },
+ "jobs": [
+  {
+   "id": "cook",
+   "type": "kitchen",
+   "cities": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "schedule": {
+    "ru": "Сменный, от 4 часов",
+    "en": "Shifts from 4 hours"
+   },
+   "salary": {
+    "ru": "от 1 400 руб.",
+    "en": "from 1,400 BYN"
+   },
+   "title": {
+    "ru": "Повар на гриль и фритюр",
+    "en": "Grill and fryer cook"
+   },
+   "about": {
+    "ru": "Готовите бургеры и картошку по стандартам Bunly. Научим всему с нуля за две недели.",
+    "en": "Cook burgers and fries to Bunly standards. We train you from scratch in two weeks."
+   },
+   "reqs": {
+    "ru": [
+     "Опыт не нужен",
+     "Медицинская книжка (поможем оформить)",
+     "Готовность работать в выходные"
+    ],
+    "en": [
+     "No experience needed",
+     "Health certificate (we help you get one)",
+     "Weekend shifts"
+    ]
+   }
+  },
+  {
+   "id": "cashier",
+   "type": "hall",
+   "cities": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12
+   ],
+   "schedule": {
+    "ru": "Гибкий график, 2/2",
+    "en": "Flexible, 2 on / 2 off"
+   },
+   "salary": {
+    "ru": "от 1 300 руб.",
+    "en": "from 1,300 BYN"
+   },
+   "title": {
+    "ru": "Кассир-администратор зала",
+    "en": "Cashier and host"
+   },
+   "about": {
+    "ru": "Встречаете гостей, принимаете заказы и следите, чтобы в зале было уютно.",
+    "en": "Welcome guests, take orders and keep the dining room cosy."
+   },
+   "reqs": {
+    "ru": [
+     "Дружелюбие и аккуратность",
+     "Можно студентам",
+     "Обучение за счёт компании"
+    ],
+    "en": [
+     "Friendly and tidy",
+     "Students welcome",
+     "Paid training"
+    ]
+   }
+  },
+  {
+   "id": "courier",
+   "type": "delivery",
+   "cities": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "schedule": {
+    "ru": "Сами выбираете смены",
+    "en": "Pick your own shifts"
+   },
+   "salary": {
+    "ru": "от 1 600 руб. + чаевые",
+    "en": "from 1,600 BYN + tips"
+   },
+   "title": {
+    "ru": "Курьер на скутере или авто",
+    "en": "Courier by scooter or car"
+   },
+   "about": {
+    "ru": "Развозите заказы в своём районе. Скутер и термосумку выдаём.",
+    "en": "Deliver orders in your area. We provide the scooter and the thermal bag."
+   },
+   "reqs": {
+    "ru": [
+     "Права категории A или B",
+     "Смартфон на Android или iOS",
+     "От 18 лет"
+    ],
+    "en": [
+     "Category A or B licence",
+     "Android or iOS smartphone",
+     "18 or older"
+    ]
+   }
+  },
+  {
+   "id": "night-shift",
+   "type": "kitchen",
+   "cities": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    9
+   ],
+   "schedule": {
+    "ru": "Ночные смены, 23:00–07:00",
+    "en": "Night shifts, 23:00–07:00"
+   },
+   "salary": {
+    "ru": "от 1 700 руб.",
+    "en": "from 1,700 BYN"
+   },
+   "title": {
+    "ru": "Сотрудник ночной смены",
+    "en": "Night shift crew"
+   },
+   "about": {
+    "ru": "Работаете в круглосуточных ресторанах: кухня, касса и драйв в одной команде.",
+    "en": "Work in our 24/7 restaurants: kitchen, till and drive-thru in one team."
+   },
+   "reqs": {
+    "ru": [
+     "Ночная надбавка +20%",
+     "Такси домой после смены",
+     "От 18 лет"
+    ],
+    "en": [
+     "+20% night bonus",
+     "Taxi home after the shift",
+     "18 or older"
+    ]
+   }
+  },
+  {
+   "id": "manager",
+   "type": "hall",
+   "cities": [
+    0,
+    3,
+    4
+   ],
+   "schedule": {
+    "ru": "5/2",
+    "en": "5 days a week"
+   },
+   "salary": {
+    "ru": "от 2 600 руб.",
+    "en": "from 2,600 BYN"
+   },
+   "title": {
+    "ru": "Менеджер смены",
+    "en": "Shift manager"
+   },
+   "about": {
+    "ru": "Ведёте смену: команда, качество, скорость и настроение гостей.",
+    "en": "Run the shift: team, quality, speed and guest mood."
+   },
+   "reqs": {
+    "ru": [
+     "Опыт руководства от 1 года",
+     "Знание кассовых программ — плюс",
+     "Рост до директора ресторана"
+    ],
+    "en": [
+     "1+ year leading a team",
+     "POS experience is a plus",
+     "Path to restaurant manager"
+    ]
+   }
+  },
+  {
+   "id": "baker",
+   "type": "kitchen",
+   "cities": [
+    0
+   ],
+   "schedule": {
+    "ru": "Ночной, 4/4",
+    "en": "Nights, 4 on / 4 off"
+   },
+   "salary": {
+    "ru": "от 1 900 руб.",
+    "en": "from 1,900 BYN"
+   },
+   "title": {
+    "ru": "Пекарь на производство",
+    "en": "Production baker"
+   },
+   "about": {
+    "ru": "Печёте булочки и пирожки на нашем производстве в Минске.",
+    "en": "Bake buns and pies at our production site in Minsk."
+   },
+   "reqs": {
+    "ru": [
+     "Опыт в пекарне — плюс",
+     "Развозка от метро",
+     "Бесплатное питание"
+    ],
+    "en": [
+     "Bakery experience is a plus",
+     "Shuttle from the metro",
+     "Free meals"
+    ]
+   }
+  },
+  {
+   "id": "smm",
+   "type": "office",
+   "cities": [
+    0
+   ],
+   "schedule": {
+    "ru": "Гибрид, 5/2",
+    "en": "Hybrid, 5 days"
+   },
+   "salary": {
+    "ru": "по договорённости",
+    "en": "negotiable"
+   },
+   "title": {
+    "ru": "SMM-менеджер",
+    "en": "Social media manager"
+   },
+   "about": {
+    "ru": "Ведёте соцсети Bunly: съёмки на кухне, акции, общение с гостями.",
+    "en": "Run Bunly social media: kitchen shoots, promotions, talking with guests."
+   },
+   "reqs": {
+    "ru": [
+     "Портфолио аккаунтов",
+     "Умение снимать и монтировать",
+     "Чувство юмора"
+    ],
+    "en": [
+     "Portfolio of accounts",
+     "Can shoot and edit video",
+     "A sense of humour"
+    ]
+   }
+  }
+ ]
+}

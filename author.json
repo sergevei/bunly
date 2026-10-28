@@ -1,0 +1,25 @@
+{
+  "name": "Siarhei Vei",
+  "handle": "sergevei",
+  "initials": "SV",
+  "tagline": {
+    "en": "interactive 3D websites built from scratch.",
+    "ru": "интерактивные 3D-сайты с нуля."
+  },
+  "pitch": {
+    "en": "Interactive 3D websites built from scratch with Three.js: scroll-driven scenes, live maps and fast, accessible pages. Want a site like this for your restaurant?",
+    "ru": "Интерактивные 3D-сайты с нуля на Three.js: сцены на скролле, живые карты, быстрые и доступные страницы. Хотите такой сайт для своего ресторана?"
+  },
+  "telegram": { "label": "@vsergeserge", "url": "https://t.me/vsergeserge" },
+  "portfolio": "https://sergevei.github.io/",
+  "projects": [
+    { "name": "NordFreight", "url": "https://sergevei.github.io/nordfreight/" },
+    { "name": "FutureCall", "url": "https://sergevei.github.io/futurecall/" }
+  ],
+  "site": {
+    "title": "Bunly",
+    "url": "https://sergevei.github.io/bunly/",
+    "repo": "https://github.com/sergevei/bunly",
+    "video": ""
+  }
+}

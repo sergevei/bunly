@@ -1,0 +1,15 @@
+{
+  "name": "Bunly — фастфуд со вкусом дома",
+  "short_name": "Bunly",
+  "start_url": "/bunly/",
+  "scope": "/bunly/",
+  "display": "standalone",
+  "background_color": "#FBF6EE",
+  "theme_color": "#E5412D",
+  "lang": "ru",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

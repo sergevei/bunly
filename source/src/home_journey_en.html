@@ -1,0 +1,45 @@
+<section class="journey" id="journey" aria-label="Interactive tour: from local fields to your tray">
+  <div class="stage" id="stage">
+    <canvas id="world" aria-hidden="true"></canvas>
+    <div class="overlay" id="overlay">
+      <div class="tip" id="tip" hidden role="dialog" aria-live="polite"><h3 id="tipTitle"></h3><p id="tipText"></p></div>
+    </div>
+    <header class="topbar">
+      <a class="wordmark" href="#content" aria-label="Bunly home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="10" fill="#E5412D"/><path d="M7 15.2a9 7.4 0 0 1 18 0z" fill="#FFC531"/><rect x="6.5" y="17" width="19" height="2.6" rx="1.3" fill="#fff"/><path d="M7.5 21.4h17a3.6 3.6 0 0 1-3.6 3.6H11.1a3.6 3.6 0 0 1-3.6-3.6z" fill="#FFC531"/></svg>
+        Bunly
+      </a>
+      <div class="top-actions">
+        <span class="pill-note hide-sm">Breakfast until <b>10:00</b> · Night menu from <b>23:00</b></span>
+        <a class="btn ghost hide-sm" href="#restaurants">Find a restaurant</a>
+        <button class="lang-btn" type="button" data-lang="ru" lang="ru" aria-label="Переключить на русский">RU</button>
+        <a class="btn primary" href="#app">Order now</a>
+        <button class="menu-btn top" type="button" aria-expanded="false" aria-controls="mnav" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+      </div>
+    </header>
+
+    <article class="card" id="card" aria-live="polite">
+      <div class="swap">
+        <div class="card-step" id="cardStep"></div>
+        <h2 id="cardTitle"></h2>
+        <p id="cardText"></p>
+        <dl class="facts" id="cardFacts"></dl>
+        <div class="card-actions">
+          <a class="btn primary" href="#app">Order now</a>
+          <a class="btn outline" href="#menu">See the menu</a>
+        </div>
+      </div>
+    </article>
+
+    <div class="swipe-hint" id="swipeHint" aria-hidden="true">Swipe to travel →</div>
+    <nav class="scene-nav" id="sceneNav" aria-label="Tour stops"></nav>
+    <div class="corner">
+      <button class="icon-btn" id="soundBtn" aria-pressed="false" aria-label="Turn ambient sound on">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path id="wave" d="M17 9l4 6M21 9l-4 6"/></svg>
+      </button>
+      <a class="btn light" id="skip" href="#content">Skip intro</a>
+    </div>
+    <div class="loader" id="loader">Firing up the grill…</div>
+  </div>
+</section>
+
