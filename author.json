@@ -14,12 +14,13 @@
   "portfolio": "https://sergevei.github.io/",
   "projects": [
     { "name": "NordFreight", "url": "https://sergevei.github.io/nordfreight/" },
-    { "name": "FutureCall", "url": "https://sergevei.github.io/futurecall/" }
+    { "name": "FutureCall", "url": "https://sergevei.github.io/futurecall/" },
+    { "name": "OBYN", "url": "https://obyn.by/" }
   ],
   "site": {
     "title": "Bunly",
     "url": "https://sergevei.github.io/bunly/",
     "repo": "https://github.com/sergevei/bunly",
-    "video": ""
+    "video": "https://www.youtube.com/watch?v=PKqFcx29mDQ"
   }
 }

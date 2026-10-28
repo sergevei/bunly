@@ -1,7 +1,7 @@
 # Bunly — multi-page 3D website concept
 
 <!-- links:start -->
-**[🌐 Live demo](https://sergevei.github.io/bunly/)**
+**[🌐 Live demo](https://sergevei.github.io/bunly/)** · **[▶ Video on YouTube](https://www.youtube.com/watch?v=PKqFcx29mDQ)**
 <!-- links:end -->
 
 [![Bunly preview](bunly_preview.jpg)](https://sergevei.github.io/bunly/)
